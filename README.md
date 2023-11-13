@@ -3,6 +3,7 @@ Coding Journey
 
 
 *VARIABLE and Data Types
+
 Variable are use in storing information. They are created the moment a value or an ingredients is assoigned to it.
 Python has no command for declaring a variable. Variables are used in storing data values.
  RULES OF VARIABLE
@@ -35,6 +36,7 @@ b = "Great"
 print(a+b)
 
 Global and Local Python Variables
+
 Local variables in Python are the ones that are defined and declared inside a function. We can not call this variable outside the function.
 Global variables in Python are the ones that are defined and declared outside a function, and we need to use them inside a function.
 # This function uses global variable s
@@ -48,10 +50,10 @@ f()
 
 Python global is a keyword that allows a user to modify a variable outside of the current scope. It is used to create global variables from a non-global scope i.e inside a function. Global keyword is used inside a function only when we want to do assignments or when we want to change a variable. Global is not needed for printing and accessing.
 Rules of global keyword
-If a variable is assigned a value anywhere within the function’s body, it’s assumed to be local unless explicitly declared as global.
-Variables that are only referenced inside a function are implicitly global.
-We use a global in Python to use a global variable inside a function.
-There is no need to use a global keyword in Python outside a function.
+-If a variable is assigned a value anywhere within the function’s body, it’s assumed to be local unless explicitly declared as global.
+-Variables that are only referenced inside a function are implicitly global.
+-We use a global in Python to use a global variable inside a function.
+-There is no need to use a global keyword in Python outside a function.
 x = 15
 
 def change():
@@ -99,6 +101,7 @@ Dictionary with the use of Integer Keys:
 {1: 'Geeks', 2: 'For', 3: 'Computer'
 
 #DATA TYPES
+
 Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, data types are actually classes and variables are instances (object) of these classes. The following are the standard or built-in data types in Python:
 
 Numeric
@@ -156,10 +159,10 @@ x = None
 
 The numeric data type in Python represents the data that has a numeric value. A numeric value can be an integer, a floating number, or even a complex number. These values are defined as Python int, Python float, and Python complex classes in Python.
 
-Integers – This value is represented by int class. It contains positive or negative whole numbers (without fractions or decimals). In Python, there is no limit to how long an integer value can be.
-Float – This value is represented by the float class. It is a real number with a floating-point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation.
+-Integers – This value is represented by int class. It contains positive or negative whole numbers (without fractions or decimals). In Python, there is no limit to how long an integer value can be.
+-Float – This value is represented by the float class. It is a real number with a floating-point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation.
 Complex Numbers – Complex number is represented by a complex class. It is specified as (real part) + (imaginary part)j. For example – 2+3j
-Note – type() function is used to determine the type of data type.
+*Note – type() function is used to determine the type of data type.
 # Python program to
 # demonstrate numeric value
 
@@ -181,7 +184,8 @@ Type of b:  <class 'float'>
 Type of c:  <class 'complex'>O[O]
 
 
-Sequence Data Type in Python
+#Sequence Data Type in Python
+
 The sequence Data Type in Python is the ordered collection of similar or different data types. Sequences allow storing of multiple values in an organized and efficient fashion. There are several sequence types in Python –
 Python String
 Python List
@@ -189,7 +193,7 @@ Python Tuple
 String Data Type
 Strings in Python are arrays of bytes representing Unicode characters. A string is a collection of one or more characters put in a single quote, double-quote, or triple-quote. In python there is no character data type, a character is a string of length one. It is represented by str class.
 
-Creating String
+#Creating String
 Strings in Python can be created using single quotes or double quotes or even triple quotes.
 
 
@@ -243,7 +247,7 @@ BOB
 List Data Type
 Lists are just like arrays, declared in other languages which is an ordered collection of data. It is very flexible as the items in a list do not need to be of the same type.
 
-Creating List
+#Creating List
 
 Lists in Python can be created by just placing the sequence inside the square brackets[].
 
@@ -309,10 +313,10 @@ Tuple3 = (Tuple1, Tuple2)
 print("\nTuple with nested tuples: ")
 print(Tuple3)
 
-Boolean Data Type in Python
+#Boolean Data Type in Python
 Data type with one of the two built-in values, True or False. Boolean objects that are equal to True are truthy (true), and those equal to False are falsy (false). But non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. It is denoted by the class bool.
 
-Note – True and False with capital ‘T’ and ‘F’ are valid booleans otherwise python will throw an error.
+*Note – True and False with capital ‘T’ and ‘F’ are valid booleans otherwise python will throw an error.
 # Python program to
 # demonstrate boolean type
 
@@ -320,7 +324,7 @@ print(type(True))
 print(type(False))
 
 
-Create a Dictionary
+#Create a Dictionary
 In Python, a Dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’. Values in a dictionary can be of any datatype and can be duplicated, whereas keys can’t be repeated and must be immutable. The dictionary can also be created by the built-in function dict(). An empty dictionary can be created by just placing it in curly braces{}. Note – Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly.
 # Creating an empty Dictionary
 Dict = {}
